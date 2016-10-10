@@ -1,6 +1,6 @@
 var request = require('request');
 var process = require('process')
-var url = process.env.POSTURL;
+var url = 'http://requestb.in/1d8bxvs1'
 
 request.post(url, {
     form: {
